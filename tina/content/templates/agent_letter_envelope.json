@@ -1,0 +1,27 @@
+{
+    "windowTitle": "Agent Letter Envelope",
+    "page1": {
+      "fromAddress": {
+        "fontFamily": "'biro_script_standard_us', cursive",
+        "lineHeight": 1.5,
+        "data": [
+          "12935 Alcosta Blvd. #3681",
+          "San Ramon, CA - 94583"
+        ]
+      },
+      "stampSection": {
+        "data": "<span data-slot=\"dwc\" data-param-slot-name=\"mw_alias\">{id}</span>"
+      },
+      "toAddress": {
+        "fontFamily": "'biro_script_standard_us', cursive",
+        "lineHeight": 1.75,
+        "data": [
+          "To,",
+          "&nbsp;&nbsp;{alias}",
+          "&nbsp;&nbsp;{address1}",
+          "{city}, {state} - {zip}"
+        ]
+      }
+    }
+  }
+  
